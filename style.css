@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Oswald:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  color: black;
+  text-decoration: none;
+}
+:root {
+  --orange: #f09a4d;
+  --grey: #696969;
+  --lorem: #988b7f;
+  --orange2: #fcebda;
+  --grey2: #ababab;
+  --greys: #f8f8f8;
+}
+
+.lh2{
+  line-height: 2rem;
+}
+
+html a {
+  text-decoration: none;
+  color: black;
+}
+html li {
+  color: black;
+}
+
+body h1 {
+  font-size: 4rem;
+}
+body h2 {
+  font-size: 3rem;
+}
+body h3 {
+  font-size: 2rem;
+}
+bosy h4 {
+  font-size: 1rem;
+}
+body .lorem {
+  color: var(--lorem);
+}
+body .bg-orange {
+  background-color: var(--orange);
+}
+body .orange {
+  color: var(--orange);
+}
+body .orange2 {
+  color: var(--orange2);
+}
+body .b-orange {
+  color: var(--orange);
+}
+body i {
+  font-size: 1.6rem;
+}
+body .grey {
+  color: var(--grey);
+}
+body .grey2 {
+  color: var(--grey2);
+}
+body .bg_img {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+body p {
+  margin: 0;
+  font-family: "Dongle", sans-serif;
+  font-size: 28px;
+  padding: 0;
+  padding-top: 0px;
+}
+body .border-r {
+  border-radius: 15px;
+}
+body .bg-grey {
+  background-color: var(--greys);
+}
+body .navy {
+  background-color: #efe9f7;
+  border-radius: 10px;
+}
+
+@media (min-width: 1440px) {
+  .navbar-collapse {
+    margin-left: 2rem;
+  }
+  .navbar ul li {
+    margin: 0 20px;
+  }
+}
+
+/********************************************/
+/*                                          */
+/*               btn orange                 */
+/*                                          */
+/********************************************/
+
+html .btn-orange {
+  background-color: #f09a4d;
+  color: white;
+}
+
+/* nav */
+ul{
+  margin: 10px 0 !important;
+  color: #efe9f7;
+}
+
+nav a {
+  font-size: 1.7rem;
+}
+.navbar ul li a {
+  color: rgb(131, 131, 131);
+  font-family: "Dongle", sans-serif;
+}
+.navbar ul li a:hover {
+  color: var(--orange);
+}
+nav .teks {
+  color: #988b7f;
+}
+nav .collapse .sign-in {
+  color: black;
+  margin-right: 30px;
+  font-family: "Dongle", sans-serif;
+}
+nav .login {
+  font-family: "Dongle", sans-serif;
+  font-size: 1.7rem;
+
+  padding: 1px 40px;
+}
+
+.bg_contain{
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+/* start become */
+
+
+
+.start .search input {
+  text-decoration: none;
+  border: none;
+}
+.start .search input:hover,
+.start .search input:active {
+  border: none;
+  text-decoration: none;
+}
+.p100{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.p50{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bg1 {
+  background-image: url("img/head.png");
+  background-size: contain; 
+  /* height: 800px; */
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  justify-content: end;
+  display: flex;
+  /* right: 0; */
+}
+
+/* ready */
+.ready .head2 {
+  background-image: url("img/img2.png");
+  max-height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  right: 0;
+}
+
+@media (max-width: 725px) {
+  .our{
+    padding-top: 0px !important;
+  }
+}
+
+.ready .orange {
+  color: var(--orange);
+}
+
+/* WHY */
+.why .bg_img {
+  background-image: url("img/img3.png");
+  height: 600px;
+}
+
+/* our */
+.our img {
+  max-height: 300px;
+}
+.our {
+  margin: 0;
+}
+.bg_darkabu{
+  background-color: #1E2832;
+}
+
+/* How */
+.how span {
+  font-size: 20px;
+}
+.how .oren {
+  background-color: #f3a35c;
+  border-radius: 10px;
+}
